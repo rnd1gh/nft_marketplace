@@ -2,9 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:nft_marketplace/models/nft_card_model.dart';
 import 'package:nft_marketplace/models/ranking_card_model.dart';
 import 'package:nft_marketplace/models/theme_card_model.dart';
+import 'package:nft_marketplace/screens/nft_marketplace_screen.dart';
+import 'package:nft_marketplace/screens/stats_screen.dart';
 
 const double kWidthSideMenu = 100.0;
 const double kHeightAppBar = 100.0;
+const double KHeightBottomBar = 60.0;
+
+// screens
+const screens = [
+  NFTMarketplaceScreen(),
+  StatsScreen()
+];
 
 // Color
 const Color primaryColor = Color(0xFF996EFF);

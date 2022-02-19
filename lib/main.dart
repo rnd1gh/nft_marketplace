@@ -1,4 +1,9 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
+
+import 'package:nft_marketplace/screens/introduce_screen.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -18,14 +23,5 @@ class MyApp extends StatelessWidget {
       ),
       home: const IntroduceScreen(),
     );
-  }
-}
-
-class IntroduceScreen extends StatelessWidget {
-  const IntroduceScreen({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
   }
 }
