@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hexagon/hexagon.dart';
 import 'package:nft_marketplace/config/constants.dart';
-import 'package:nft_marketplace/models/bottom_bar_button.dart';
+import 'package:nft_marketplace/widgets/bottom_bar_button.dart';
 import 'package:nft_marketplace/widgets/glassmorphism.dart';
 
 class HomeScreen extends StatefulWidget {

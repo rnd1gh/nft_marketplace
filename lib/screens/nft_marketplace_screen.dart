@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nft_marketplace/config/constants.dart';
-import 'package:nft_marketplace/models/nft_card_widget.dart';
+import 'package:nft_marketplace/widgets/nft_card_widget.dart';
 import 'package:nft_marketplace/widgets/theme_card_widget.dart';
 
 class NFTMarketplaceScreen extends StatelessWidget {
